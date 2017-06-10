@@ -1,0 +1,543 @@
+/*section, div {
+    border:1px solid black;
+}*/
+
+/*.navbar, div {
+    border: 1px solid white;
+    color: #fff;
+}*/
+
+/*global classes*/
+
+
+body {
+    margin:0;
+    font-family: 'Alice', serif;
+}
+
+
+/* project */
+
+.title {
+    width: 17%;
+}
+
+.title h2 {
+    text-align: right;
+    border-right-color: 1px solid rgb(71, 35, 0);
+}
+
+.title-p {
+    line-height: 1.7em;
+    padding: 0 7% 0 7%;
+}
+
+
+
+/*cover*/
+
+.cover {
+    background-image: url('images/apple.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:50em;
+    width:100%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.cover h1 {
+    color: #FFC200;
+    font-size: 44px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 4.5em;
+    border-radius: 25%;
+    background-color: rgb(71, 35, 0);
+}
+
+.cover h3 {
+    color:white; 
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;   
+    border-radius: 25%;
+    background-color: rgb(71, 35, 0);
+}
+
+.navbar {
+    max-width:100%;
+    display: flex;
+    position: absolute;
+}
+
+.navbar img {
+    float:left;
+}
+
+.navbar li {
+    display:inline-block;
+    margin-right:2em;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    padding:0;
+}
+
+.navbar h1 {
+    font-family: 'Meddon', cursive;
+    font-size:40px;
+}
+
+
+
+/*menu*/
+
+.menu {
+    padding: 2px 0 7px 0;
+    float:right;  
+}
+
+.menu li {
+    font-size:22px;
+    font-weight:normal;
+    color:#fff;
+    border-bottom: 3px solid #FFC200;
+}
+
+#hamburger {
+    visibility: hidden;
+    
+}
+
+.social {
+    position: absolute;
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-right:0.3em;
+    background-color: rgb(51, 51, 51);
+    border-radius: 6%;
+    padding: 0.5em;    
+}
+
+
+
+
+/*#hamburger {
+    visibility:hidden;*/
+
+.section-projects {
+    color: #000000;
+    background-color: #ffc200;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.title-project {
+    text-align: center;
+    font-size: 22px;
+}
+
+.project-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 56%;
+    margin: auto;
+}
+
+.project-row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        max-width: 56%;
+    margin: auto;
+}
+
+
+
+/*programming skills*/
+
+.section-prog-skills {
+    background-color:rgb(51, 51, 51);
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color:#fff;
+}
+
+.title-prog {
+    text-align: center;
+    font-size: 22px;
+}
+
+.section-prog-skills p {
+    text-transform: uppercase;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.container-prog-skills {
+    display: flex;
+}
+
+
+.prog-text {
+    width:31%;
+    padding: 1.5em 3em 2.5em 3em; 
+    flex-direction: row;
+    margin: 0 auto;  
+}
+
+.project-box {
+    text-align: center;
+    color:rgb(71, 35, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:normal;
+    margin: 10px;
+}
+
+.project-box h2 {
+    font-size:16px;
+    text-decoration: none;
+}
+
+
+
+/* section-prog-skills */
+
+.bar-out {
+    padding:0;
+    background-color: rgb(57, 42, 41);
+}
+
+.html-bar {
+    width:95.1%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.css-bar {
+    width:95.1%;
+    height:20px;
+    background-color:rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.js-bar {
+    width:62%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.php-bar {
+    width:50%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.sql-bar {
+    width:76%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+/* about me */
+.section-about-me {
+    background-color: rgb(51, 51, 51);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.section-about-me {
+    background-color:#FFC200;
+}
+
+.section-about-me {
+    text-align: center;
+}
+
+.section-about-me h2 {
+    text-align: center;
+    padding-bottom:1em; 
+    font-size: 32px;
+    font-family: 'Alice', serif;
+}
+
+.section-about-me img {
+    height: 70%;
+    width: auto;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.section-about-me p {
+    padding: 2em 1.5em 0em 1.5em;
+    line-height: 1.7em;
+    max-width: 50em;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* section-contact */
+
+.section-contact {
+    margin:0 auto;
+    margin-top: 0;
+    padding: 1.5em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    margin-bottom: 0;
+    background-image: url('alex-rodriguez-santibanez-208174.jpg');
+    background-size:cover;
+    background-color: rgba(255, 194, 0, 0.5);   
+}
+
+.full-form {
+    max-width: 400px;;
+    margin: auto;
+        background-color: rgb(51, 51, 51);
+    padding: 2em 1.5em 3em 1.5em;
+    border-radius: 10%;
+}
+
+.section-contact h1, 
+.section-contact h2,
+.section-contact form {
+    text-align: center;
+}
+
+.section-contact h1 {
+    font-size: 34px;
+    color:#FFC200;
+}
+
+.section-contact h2 {
+    color:whitesmoke;
+}
+
+.section-contact input {
+    height:1.8em;
+    width:18em;
+    border-radius: 5%;
+    margin: 10px;
+    border:2px solid #ffc200;
+}
+
+.section-contact textarea {
+    border-radius: 5%;
+    margin:10px;
+    border:2px solid rgb(71, 35, 0);
+}
+
+.section-contact button {
+    background-color: #ffc200;
+}
+
+.form {
+    width:30%;
+    color: black;
+    margin: auto;
+    width:30%;
+    background-color: #FFC200;
+}
+
+.form text {
+    padding-bottom:30px;
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  color: #FFC200;
+  vertical-align: top;
+}​
+
+
+/* Footer */
+
+#footer {
+    
+    height: 80px;
+    text-align: center;
+    border:0;
+}
+
+#footer p {
+    margin:0;
+    margin-top:-5px;
+    padding: 15px 0 15px 0;
+    color:white;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+/*.footer-social img {
+    align-content: center;
+}*/
+
+button {
+    padding: 0.4em 5em 0.4em 5em;
+    border-radius: 5%;
+}
+
+
+
+/*media query for mobile*/
+
+@media only screen and (min-width:320px) and (max-width: 770px) {
+    
+    .menu {
+    padding:0;
+    float:none;  
+    width:100%;
+    display:none;
+    position: fixed;
+    }
+
+    .navbar {
+        width:100%;
+        
+    }
+
+    .navbar ul {
+        margin: 0;
+        padding:0;
+        width: 100%;
+    }
+
+    .navbar li {
+        /*margin-right:2em;*/
+        display:list-item;
+        text-align: center;
+        line-height: 2em;
+        list-style-type: none;
+        text-decoration:underline;
+        border-bottom: none;
+        background-color:rgba(255, 194, 0, 0.95);
+        padding-right:0;
+        margin: 0;
+        padding-top: 1.2em; 
+    }
+
+    /*.navbar li:nth(3) {
+        padding-bottom: 2em; 
+    }*/
+
+    #hamburger {
+        position: absolute;
+        position: fixed;
+        right: 0;
+        top:0;
+        visibility: visible;
+        height: 40px;
+        width:auto;
+        padding: 0.3em;
+        margin: 0.3em;
+        background-color: rgb(51, 51, 51);
+        border-radius: 6%;
+        z-index: 999;
+    }
+
+    .social{
+        display:none;
+    }
+
+    .project-row-1,
+    .project-row-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 100%;
+        margin: auto;
+    }
+
+.prog-text {
+    width: 78%;
+    padding: 1.5em 3em 2.5em 3em;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+    .container-prog-skills {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .project-box img {
+        height: 180px;
+        width: auto;
+    }
+    
+    .section-about-me img {
+        height: 250px;
+        width: auto;
+    }
+}
+
+
+/*  media query for tablet */
+
+/*@media only screen and (min-width: 481px)(max-width:980px) {
+    .project-row-1,
+    .project-row-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 100%;
+        margin: auto;
+    }
+.projectimg{
+    height: 150px;
+    width: 180px;
+}
+    .container-prog-skills {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .prog-text {
+    width: 78%;
+    padding: 1.5em 3em 2.5em 3em;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.project-box img {
+        height: 185px;
+        width: auto;
+    }
+    
+    .section-about-me img {
+        height: 300px;
+        width: auto;
+    }
+    
+}*/
+
+
+
+
