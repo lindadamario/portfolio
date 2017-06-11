@@ -132,11 +132,6 @@ body {
 }
 
 
-
-
-/*#hamburger {
-    visibility:hidden;*/
-
 .section-projects {
     color: #000000;
     background-color: #ffc200;
@@ -157,12 +152,25 @@ body {
     margin: auto;
 }
 
+.project-row-1 a {
+    text-decoration: none;
+}
+
 .project-row-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-        max-width: 56%;
+    max-width: 56%;
     margin: auto;
+    margin-top: 3em;
+}
+
+.project-row-2 a {
+    text-decoration: none;
+}
+
+.project-row-2 span {
+    font-style: italic;
 }
 
 
@@ -238,7 +246,31 @@ body {
     padding-bottom: 0;
 }
 
+.sass-bar {
+    width:62%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
 .js-bar {
+    width:62%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.jquery-bar {
+    width:62%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.reactjs-bar {
     width:62%;
     height:20px;
     background-color: rgb(255, 194, 0);
@@ -254,13 +286,54 @@ body {
     padding-bottom: 0;
 }
 
-.sql-bar {
-    width:76%;
+.bootstrap-bar {
+    width:95.1%;
     height:20px;
     background-color: rgb(255, 194, 0);
     padding-top:0;
     padding-bottom: 0;
 }
+
+.sql-bar {
+    width:30%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.git-bar {
+    width:75%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.php-bar {
+    width:20%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.design-bar {
+    width:80%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.adobe-bar {
+    width:90%;
+    height:20px;
+    background-color: rgb(255, 194, 0);
+    padding-top:0;
+    padding-bottom: 0;
+}
+
 
 /* about me */
 .section-about-me {
